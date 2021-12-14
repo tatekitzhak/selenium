@@ -37,6 +37,7 @@ if __name__ == '__main__':
                  "show [O]dometer, or show average [S]peed?").upper()
         if action not in "ABOS" or len(action) != 1:
             print("I don't know how to do that.")
+            print("I don't know how to do that.")
             continue
         if action == 'A':
             my_car.accelerate()
